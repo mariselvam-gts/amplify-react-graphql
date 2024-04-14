@@ -97,13 +97,14 @@ const App = ({ signOut }) => {
             Create Note
           </Button>
         </Flex>
-      </View>
-      <View
+        <View
         name="image"
         as="input"
         type="file"
         style={{ alignSelf: "end" }}
       />
+      </View>
+      
       <Heading level={2}>Current Notes</Heading>
       <View margin="3rem 0">
       {notes.map((note) => (
